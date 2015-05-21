@@ -1,32 +1,11 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8">
 	<title>Denis Moroz Portfolio</title>
 	<link rel="stylesheet" href="css/main.css">
-	<link href='http://fonts.googleapis.com/css?family=Lato:400,100' rel='stylesheet' type='text/css'>
-
-	<style type="text/css">
-		@media screen and (min-width: 450px)  {
-			.clackboard {
-				width: 50%;
-			}
-			.breakalarm {
-				width: 50%;
-			}
-		}
-		@media screen and (min-width: 800px) {
-			.clackboard {
-				width: 33%;
-			}
-			.breakalarm {
-				width: 33%;
-			}
-			.future {
-				width: 33%;
-			}			
-		}
-	</style>
+	<link rel="stylesheet" href="css/breakpoints.css">
+	<link href="http://fonts.googleapis.com/css?family=Lato:400,100" rel="stylesheet" type="text/css">
 </head>
 <body>
 
@@ -34,11 +13,11 @@
 
 		<div class="row">
 			<div class="col-6">
-				<img id="logo" src="images/share.svg">
+				<img class="logo" src="images/share.svg" alt="Portfolio Logo">
 			</div>
 			<div class="col-6 text-right text-uppercase">
-				<h1 id="name" class="text-thin title-super">Denis Moroz</h1>
-				<h3 id="role">Software Developer</h3>
+				<h1 class="name text-thin title-super">Denis Moroz</h1>
+				<h3>Software Developer</h3>
 			</div>
 		</div>
 
@@ -51,33 +30,32 @@
 
 		<div class="row">
 			<div class="col-12">
-				<img src="images/wooden-path.jpg">
+				<img src="images/wooden-path.jpg" alt="Wooden path">
 			</div>
 		</div>
 
 		<div class="row">
 			<div class="col-12">
-				<h2 class="text-muted" id="featured_work_title">Featured Work</h2>
+				<h2 class="text-muted featured-work-title">Featured Work</h2>
 			</div>
 		</div>
 
-
 		<div class="row">
-			<div class="col-4 clackboard">
-			   	<img class="project_image" src="images/cb.png">
-			   	<h1 class="project_name">ClackBoard</h1>
-			   	<a class="project_url" href="http://market.android.com/details?id=com.doandroid.clackboard">at GooglePlay</a>
+			<div class="clackboard">
+			   	<img class="project-image" src="images/cb.png" alt="ClackBoard Icon">
+			   	<h1 class="project-name">ClackBoard</h1>
+			   	<a class="project-url" href="http://market.android.com/details?id=com.doandroid.clackboard">at GooglePlay</a>
 			</div>
-			<div class="col-4 breakalarm">
-				<img class="project_image" src="images/ba_clock.png">
-				<h1 class="project_name">BreakAlarm</h1>
-			   	<a class="project_url" href="http://market.android.com/details?id=com.doandroid.break_alarm">at GooglePlay</a>
+			<div class="breakalarm">
+				<img class="project-image" src="images/ba_clock.png" alt="BreakAlarm Icon">
+				<h1 class="project-name">BreakAlarm</h1>
+			   	<a class="project-url" href="http://market.android.com/details?id=com.doandroid.break_alarm">at GooglePlay</a>
 			</div>
 
-			<div class="col-4 future">
-				<img class="project_image" src="images/fo2.jpg">
-				<h1 class="project_name">TheFutureOne</h1>
-			   	<a class="project_url" href="http://doandroid.com">http://doandroid.com</a>
+			<div class="future">
+				<img class="project-image" src="images/fo2.jpg" alt="FutureProject Icon">
+				<h1 class="project-name">TheFutureOne</h1>
+			   	<a class="project-url" href="http://doandroid.com">http://doandroid.com</a>
 			</div>
 		</div>
 	</div>
